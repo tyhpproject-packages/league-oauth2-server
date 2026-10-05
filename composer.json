@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/league-oauth2-server",
+    "description": "Tyhp type definitions for league/oauth2-server 9.4.1.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "9.4.1",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/league-oauth2-server-impl": "~9.4.1.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/league-oauth2-server-impl"
+        }
+    }
+}
